@@ -37,8 +37,14 @@ h2, .title {
     font-family: "Styrene B", sans-serif;
 }
 
-h3, h4, h5, h6, .previous-post, .next-post {
+h3, h4, h5, h6 {
     font-family: "Styrene", sans-serif;
+}
+
+.previous-post, .next-post {
+    font-size: 0.75rem;
+    font-family: "Styrene", sans-serif;
+    width: 40%
 }
 
 p, .entries .title, .published {
