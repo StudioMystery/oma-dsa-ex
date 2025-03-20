@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://studiomystery.github.io/oma-dsa-ex"
 languageCode = "en-us"
 theme = "poison"
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
@@ -39,7 +39,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
     rss_icon = true
     # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
-    rss_section = "posts"
+    #rss_section = "posts"
 
     # Hex colors for your sidebar.
     moon_sun_background_color = "#ea2128"   # default is #515151
@@ -68,3 +68,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 [taxonomies]
     series = 'series'
     tags = 'tags'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

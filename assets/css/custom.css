@@ -1,26 +1,27 @@
 /* DSA Fonts */
+/* TODO: fix the prefixes when moving to non-subdirectory domain*/
 @font-face {
     font-family: 'Greycliff L';
     src: local(''),
-         url('/fonts/Greycliff/GREYCLIFFCF-LIGHT.OTF') format('opentype'),
+         url('/oma-dsa-ex/fonts/Greycliff/GREYCLIFFCF-LIGHT.OTF') format('opentype'),
   }
 
   @font-face {
     font-family: 'Styrene BL';
     src: local(''),
-         url('/fonts/Styrene/StyreneB-Black.otf') format('opentype'),
+         url('/oma-dsa-ex/fonts/Styrene/StyreneB-Black.otf') format('opentype'),
   }
 
   @font-face {
     font-family: 'Styrene B';
     src: local(''),
-         url('/fonts/Styrene/StyreneB-Bold.otf') format('opentype'),
+         url('/oma-dsa-ex/fonts/Styrene/StyreneB-Bold.otf') format('opentype'),
   }
 
   @font-face {
     font-family: 'Styrene';
     src: local(''),
-         url('/fonts/Styrene/StyreneB-Regular.otf') format('opentype'),
+         url('/oma-dsa-ex/fonts/Styrene/StyreneB-Regular.otf') format('opentype'),
   }
 
 .sidebar-about h1 {
